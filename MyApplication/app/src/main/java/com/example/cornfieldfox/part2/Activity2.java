@@ -206,9 +206,11 @@ public class Activity2 extends AppCompatActivity implements SensorEventListener,
             if(Math.abs(vx)>FAST_THRESHOLD)
             {
                 rotate_speed = 10*translate_speed;
+                Toast.makeText(this, "Quick Fling", Toast.LENGTH_SHORT).show();
             }
             else{
                 rotate_speed = 5*translate_speed;
+                Toast.makeText(this, "Normal Fling", Toast.LENGTH_SHORT).show();
             }
 
             if(diffX<0)
