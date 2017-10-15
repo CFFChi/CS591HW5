@@ -1,0 +1,19 @@
+README:
+
+first Activity:
+1. Right Fling(from left to right) will transform to next Act.
+2. double tap the screen anywhere will rotate the picture 360 degree 3 times (with linear interpolator). 
+
+second Activity:
+1. Transform related:
+	1.1 move the device L/R/U/D quickly will make the picture goes L/R/U/D (about 2s)
+	1.2 shake it will make the picture shake for about 2s, too.
+	1.3: ONE TAP will halve the speed
+	1.4: LONG PRESS will double the speed.
+
+2. Rotation related:
+	2.1 Right fling(left -> right) will rotate the picture 5 second with 5x speed clockwise; 
+	2.2 Quick Right fling (L->R) will rotate the picture 5 second with 10x speed clockwise;
+	2.3 Left Fling(R -> L) will rotate the picture 5 second with 5x speed counter-clockwise
+	2.4 Quick LeftFling(R->L) will rotate the picture 5 second with 10x speed counter-clockwise 
+
